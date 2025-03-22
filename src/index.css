@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e8e8e8;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-start infinite;
+}
+
+@media screen and (min-width: 1277px) and (max-width: 11429px)  {
+  .photo {
+    position: fixed;
+    bottom: 0;
+    height: 95%;
+  }
+}

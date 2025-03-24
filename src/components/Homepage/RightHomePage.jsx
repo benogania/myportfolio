@@ -6,6 +6,7 @@ const RightHomePage = () => {
         <img
             src="./Picture1.png"
             className="photo h-[120%] max-h-[900px] bottom-[20px] w-auto object-contain"
+             alt="Example" loading="lazy"
           />
     </div>
   )

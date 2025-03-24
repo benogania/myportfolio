@@ -29,7 +29,7 @@ const TypingEffect = () => {
   }, [text, isDeleting, index]);
 
   return (
-    <h1 className="text-3xl font-semibold  bg-gradient-to-r from-[#CA5EFA] via-[#ff69e6] to-[#b700ff] bg-clip-text text-transparent  md:text-4xl">
+    <h1 className="text-3xl font-semibold  bg-gradient-to-r from-[#CA5EFA] via-pink-400 to-[#b700ff] bg-clip-text text-transparent  md:text-4xl">
       {text}
       <span className="animate-blink">|</span>
     </h1>
